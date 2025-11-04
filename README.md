@@ -51,6 +51,8 @@ This project implements secure, role-based authentication and authorization usin
 
 ---
 
-🗄️ Database Setup (MySQL)
-(In mysql workbench)
-CREATE DATABASE user_management;
+## 🗄️ Database Setup (MySQL)
+
+- (In mysql workbench)
+
+  - CREATE DATABASE user_management;
