@@ -55,4 +55,4 @@ This project implements secure, role-based authentication and authorization usin
 
 - (In mysql workbench)
 
-  - CREATE DATABASE user_management;
+  - `CREATE DATABASE user_management;`
