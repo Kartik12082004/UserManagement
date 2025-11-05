@@ -7,34 +7,6 @@ This project implements secure, role-based authentication and authorization usin
 
 ---
 
-## 🚀 Features
-
-- 🔐 **Authentication & Authorization**
-
-  - Spring Security with **JWT tokens** (Spring JWT `api`, `impl`, and `jackson` modules)
-  - Role-based access control (`ADMIN`, `USER`)
-  - Secure login and registration endpoints
-
-- 🌐 **Google OAuth2 Login**
-
-  - Login using Google credentials via Spring OAuth2
-
-- 🧱 **Database Integration**
-
-  - Spring Data JPA + Hibernate ORM
-  - MySQL relational database backend
-
-- ⚙️ **Monitoring with Spring Actuator**
-
-  - Real-time health, metrics, and log monitoring
-  - Custom actuator configuration in `application.properties`
-
-- 📦 **Clean REST API Design**
-  - Layered architecture
-  - JSON request/response via Jackson
-
----
-
 ## 🧩 Tech Stack
 
 | Technology                            | Purpose                             |
@@ -51,8 +23,34 @@ This project implements secure, role-based authentication and authorization usin
 
 ---
 
-## 🗄️ Database Setup (MySQL)
+# 🧰 How to Run the Project
+
+## 1️⃣ Database Setup (MySQL)
 
 - (In mysql workbench)
-
   - `CREATE DATABASE user_management;`
+
+---
+
+## 2️⃣ Configure application.properties
+
+- open application.properties
+- Set:
+- Your MySQL username and password
+- Your Google OAuth2 Client ID and Client Secret
+- Your own JWT secret key
+
+---
+
+## 3️⃣ Run the Project
+
+- Option A: Using Maven
+
+  - `mvn clean install`
+  - `mvn spring-boot:run`
+
+- Option B: Using an IDE
+  - Open the project in IntelliJ IDEA, Eclipse, or Spring Tool Suite
+  - Locate the main class:
+    - `src/main/java/com/yourpackage/UserManagementApplication.java`
+  - Right-click → Run as → Spring Boot App
