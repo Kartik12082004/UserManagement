@@ -36,9 +36,9 @@ This project implements secure, role-based authentication and authorization usin
 
 - open application.properties
 - Set:
-- Your MySQL username and password
-- Your Google OAuth2 Client ID and Client Secret
-- Your own JWT secret key
+  - Your MySQL username and password
+  - Your Google OAuth2 Client ID and Client Secret
+  - Your own JWT secret key
 
 ---
 
